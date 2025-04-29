@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.wrapper{
+height:100vh;
+width:100vw;
+background-color: cadetblue;
+display:Flex;
+flex-direction: column;
+gap:3rem;
+}
+.game-name{
+    width:100%;
+    background-color: black;
+    height:6rem;
+
+}
+.game-heading{
+    font-size:4rem;
+    color:white;
+    text-align: center;
+    padding:1rem;
+}
+.game-buttons{
+    display:flex;
+    max-width:700px;
+    width:90%;
+    margin:0 auto;
+    justify-content: space-around;
+    align-items: center;
+}
+.buttons {
+    font-size: 1.8rem;
+    padding: 1rem;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    background-color: white;
+    border: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease;
+}
+
+.buttons:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.3);
+}
+.score-display{
+    margin:0 auto;
+    text-align: center;
+    flex-direction: row;
+    display:Flex;
+    justify-content: center;
+    gap:2rem;
+}
+.user-score,.user-desc{
+    font-size:2rem;
+}
+.computer-score,.computer-desc{
+    font-size:2rem;
+}
+.pickmovebtn {
+    display: block;
+    margin: 2rem auto; /* centers it horizontally and adds spacing below */
+    color: #ffffff;
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.4), rgba(255, 255, 255, 0.1));
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 12px;
+    padding: 0.8rem 2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    backdrop-filter: blur(6px);
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.pickmovebtn:hover {
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+    transform: scale(1.05);
+}
