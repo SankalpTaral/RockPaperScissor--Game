@@ -1,4 +1,11 @@
-# RockPaperScissor-Game
-Built a Rock Paper Scissor Game Purpose of this Project was Mostly Focusing  on JavaScript Logic Part  Strengthing the Basics and Foundataion of it
+# Rock Paper Scissor Game
 
+A simple rock-paper-scissor game built using HTML, CSS, and JavaScript.
 
+## Features
+- Interactive gameplay
+- Responsive design
+- Score tracking
+
+## How to Run
+Just open `index.html` in your browser.
